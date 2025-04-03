@@ -1,6 +1,3 @@
-# whisper_gui_v3_0_exe_ready.py
-# 버전 3.0 - exe 배포 준비용 최종 GUI 버전
-
 import os
 import subprocess
 import sys
