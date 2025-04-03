@@ -63,7 +63,7 @@ class BasicTranscriberApp:
 
         # 오디오 추출
         video = VideoFileClip(mp4_path)
-        video.audio.write_audiofile(wav_path, verbose=False, logger=None)
+        video.audio.write_audiofile(wav_path)
 
         # 텍스트 변환
         result = model.transcribe(wav_path, language="Korean")
